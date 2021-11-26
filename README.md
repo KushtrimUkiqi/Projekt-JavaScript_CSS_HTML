@@ -1,2 +1,2 @@
 # Projekt-JavaScript_CSS_HTML
-<img src="./resources/images/logo.png">
+<img src="./resources/images/logo1.png">

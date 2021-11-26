@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+overflow: hidden;
+background: linear-gradient(90deg, rgba(113,153,146,1) 50%, rgba(78,126,161,1) 50%); 
+background-repeat: no-repeat;
+background-size: cover;
+}   
+
+.main
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* for the entry page */
+
+.container_entry
+{
+    background-color: white;
+    border-radius: 10px;
+    height: 70vh;
+    width: 75vw;
+    /* margin: 0 auto; */
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows:  2fr 2fr 1fr 1fr;
+    
+}
+
+
+.logo
+{   grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo object
+{
+    width: 50vw;
+    height: 32vh;
+}
+
+.navigation_buttons
+{
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation_buttons button
+{
+    width: 30vw;
+    height: 4vh;
+}
+
+
+
+button
+{
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: center; */
+    /* align-items: center; */
+    font-size: 10px;
+    background-color: rgba(78,126,161,1);
+    color: white;
+    border-radius: 4px;
+    border-color: transparent;
+}
+
+
+
+/*NEW GAME*/
+.container_new_game
+{
+    background-color: white;
+    border-radius: 10px;
+    height: 80vh;
+    width: 85vw;
+    /* margin: 0 auto; */
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows:  9fr 1fr;
+}
+
+#cards
+{
+    gap: 1vw;
+    margin: 1vh auto;
+    grid-row: 1;
+    grid-column: 1;
+    width: 76vw ;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+
+#cards:nth-child(0),#cards:nth-child(1),#cards:nth-child(2),#cards:nth-child(3)
+{
+    grid-row: 1;
+}
+
+#cards:nth-child(4),#cards:nth-child(5),#cards:nth-child(6),#cards:nth-child(7)
+{
+    grid-row: 2;
+}
+
+#cards:nth-child(8),#cards:nth-child(9),#cards:nth-child(10),#cards:nth-child(11)
+{
+    grid-row: 3;
+}
+
+#cards:nth-child(12),#cards:nth-child(13),#cards:nth-child(14),#cards:nth-child(15)
+{
+    grid-row: 4;
+}
+
+.background
+{
+    background-image: url(../images/brain.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+
+.showImage
+{
+    background-image: url(../images/memory-card.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: center;
+
+}
+
+#cards > div
+{
+    border: 1px solid rgba(113, 153, 146, 0.109);
+    /* background-color: rgba(78,126,161,1); */
+    background-color: rgba(78, 126, 161, 0.075);
+    /* background-image: url(../images/brain.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center; */
+    width: 18vw;
+    height: 17vh;
+    border-radius: 2px;
+    
+}
+
+#buttons
+{
+    grid-row: 2;
+    grid-column: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    padding-bottom: 2vh;
+
+}
+#buttons button
+{
+    width: 25vw;
+    height: 4vh;
+}
+.attempts
+{  
+    position: absolute;
+    height: 3vh;
+    width: 30vw;
+    top: 0;
+    left: 35vw;
+    background-color: white;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: rgba(78,126,161,1);
+    font-size: 15px;
+    text-align: center;
+
+}
+.hidden
+{
+    display: none;
+}
+
+

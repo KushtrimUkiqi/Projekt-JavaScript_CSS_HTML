@@ -1,4 +1,5 @@
-## Projekti i dyte ne kuader te bootcamp-it "Per programera 2021"
+## Projekti i dyte ne kuader te bootcamp-it <a href="https://perprogramera.com/">"Per programera 2021"</a>
+## The second project within the bootcamp <a href="https://perprogramera.com/">"Per programera 2021"</a>
 Teknologjite e perdorura JavaScript , CSS , HTML
 <img src="./resources/images/logo1.png">
 
